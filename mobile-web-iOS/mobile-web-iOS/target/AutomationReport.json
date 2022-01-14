@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T10:13:09.779Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13486000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utility.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Account approve with ıd",
+        "description": "",
+        "id": "account-approve;account-approve-with-ıd",
+        "after": [
+          {
+            "result": {
+              "duration": 4270000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utility.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2199000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open https://beta.misli.com in Safari browser",
+            "match": {
+              "location": "misli.StepDefinitions.openHttpsBetaMisliComInSafariBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2239000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Daxil Ol button",
+            "match": {
+              "location": "misli.StepDefinitions.click_on_daxil_ol_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2640000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter correct phoneNumber and password",
+            "match": {
+              "location": "misli.StepDefinitions.enterCorrectPhoneNumberAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "misli.StepDefinitions.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1125000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check result",
+            "match": {
+              "location": "misli.StepDefinitions.check_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Profile",
+            "match": {
+              "location": "misli.StepDefinitions.clickProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click HESABI TƏSDİQ ET button",
+            "match": {
+              "location": "misli.StepDefinitions.clickHESABITƏSDİQETButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2100000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check Hesabın Təsdiqi",
+            "match": {
+              "location": "misli.StepDefinitions.checkHesabınTəsdiqi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027192.168.1.48\u0027, ip: \u0027fe80:0:0:0:186d:4b5b:b159:d84b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: io.appium.java_client.AppiumDriver\nCapabilities {browserName: Safari, databaseEnabled: false, deviceName: iPhone 6s, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, platform: MAC, platformName: iOS, platformVersion: 13.5.1, takesScreenshot: true, udid: 3e50207ab8abe4aa722dd11a514..., webStorageEnabled: false}\nSession ID: 6c7a932b-9405-432d-93f3-dbd4befc3f7d\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027accountRight\u0027]/div[2]/div/div/div/form/div[1]/div/div/ul/li[1]/div/div}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat misli.StepDefinitions.clickŞəxsiyyətVəsiqəsininÜzTərəfi(StepDefinitions.java:373)\n\tat ✽.Click Şəxsiyyət Vəsiqəsinin üz tərəfi(file:///Users/testinium/IdeaProjects/mobile-web-iOS/src/test/java/resources/ApproveCustomer.feature:12)\n",
+              "duration": 40623000000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Click Şəxsiyyət Vəsiqəsinin üz tərəfi",
+            "match": {
+              "location": "misli.StepDefinitions.clickŞəxsiyyətVəsiqəsininÜzTərəfi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Chose and upload photo",
+            "match": {
+              "location": "misli.StepDefinitions.choseAndUploadPhoto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Click Şəxsiyyət Vəsiqəsinin arxa tərəfi",
+            "match": {
+              "location": "misli.StepDefinitions.clickŞəxsiyyətVəsiqəsininArxaTərəfi()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Chose and upload photo",
+            "match": {
+              "location": "misli.StepDefinitions.choseAndUploadPhoto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click GÖNDƏR button",
+            "match": {
+              "location": "misli.StepDefinitions.clickGÖNDƏRButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Account Approve",
+    "description": "",
+    "id": "account-approve",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/ApproveCustomer.feature",
+    "tags": []
+  }
+]
